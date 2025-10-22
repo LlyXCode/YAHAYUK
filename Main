@@ -520,19 +520,19 @@ end
 
 -- Settings
 SettingsTab:Button({
-    Title = "TIMER GUI",
+    Title = "AUTO KICK",
     Icon = "lucide:layers-2",
-    Desc = "Timer untuk hitung BT",
+    Desc = "Klik untuk mengaktifkan auto kick",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/TIMER"))()
+        loadstring(game:HttpGet("https://pastefy.app/FFdBgoqr/raw"))()
     end
 })
 SettingsTab:Button({
-    Title = "PRIVATE SERVER",
+    Title = "ANIMASI",
     Icon = "lucide:layers-2",
-    Desc = "Klik untuk pindah ke private server",
+    Desc = "Klik untuk mengubah animasi mu",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LlyXCode/PS/refs/heads/main/ps"))()
+        loadstring(game:HttpGet("https://pastefy.app/uoZdJykS/raw"))()
     end
 })
 -- ============================================================
@@ -779,7 +779,7 @@ Window:DisableTopbarButtons({
 
 -- Open button cantik
 Window:EditOpenButton({
-    Title = "BANTAI GUNUNG",
+    Title = "LlyXCode",
     Icon = "geist:logo-nuxt",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 2,
