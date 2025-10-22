@@ -111,7 +111,7 @@ end
 
 -- daftar link raw route (ubah ke link punyamu)
 routes = {
-    {"BASE → CP8", loadRoute("https://raw.githubusercontent.com/Bardenss/YAHAYUK/refs/heads/main/cadangan.lua")},
+    {"BASE → CP8", loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/cadangan.lua")},
 }
 
 -- ============================================================
@@ -362,15 +362,15 @@ end
 local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 
 local Window = WindUI:CreateWindow({
-    Title = "BANTAI GUNUNG",
+    Title = "LlyXCode 〢 YAHAYUK",
     Icon = "lucide:mountain-snow",
-    Author = "bardenss",
-    Folder = "BRDNHub",
+    Author = "LlyXCode",
+    Folder = "LlyXCode",
     Size = UDim2.fromOffset(580, 460),
     Theme = "Midnight",
     Resizable = true,
     SideBarWidth = 200,
-    Watermark = "bardenss",
+    Watermark = "LlyXCode",
     User = {
         Enabled = true,
         Anonymous = false,
@@ -524,7 +524,7 @@ SettingsTab:Button({
     Icon = "lucide:layers-2",
     Desc = "Timer untuk hitung BT",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bardenss/YAHAYUK/refs/heads/main/TIMER"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/TIMER"))()
     end
 })
 SettingsTab:Button({
@@ -532,7 +532,7 @@ SettingsTab:Button({
     Icon = "lucide:layers-2",
     Desc = "Klik untuk pindah ke private server",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Bardenss/PS/refs/heads/main/ps"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LlyXCode/PS/refs/heads/main/ps"))()
     end
 })
 -- ============================================================
@@ -744,7 +744,7 @@ InfoTab:Button({
     Desc = "Salin link Discord ke clipboard",
     Callback = function()
         if setclipboard then
-            setclipboard("https://discord.gg/cjZPqHRV")
+            setclipboard("https://discord.gg/XD")
             logAndNotify("Discord", "Link berhasil disalin!")
         else
             notify("Clipboard Error", "setclipboard tidak tersedia!", 2)
@@ -766,7 +766,7 @@ Replay/route system untuk checkpoint.
 - Run CPx → CPy = jalur spesifik
 - Playback Speed = atur kecepatan replay (0.25x - 3.00x)
 
-Own bardenss
+Own LlyXCode
     ]],
     TextSize = 16,
     TextTransparency = 0.25,
@@ -935,7 +935,7 @@ tampTab:Button({
 })
 
 -- Final notif
-notify("BANTAI GUNUNG", "Script sudan di load, gunakan dengan bijak.", 3)
+notify("LlyXCode", "Script sudan di load, gunakan dengan bijak.", 3)
 
 pcall(function()
     Window:Show()
