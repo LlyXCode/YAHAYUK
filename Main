@@ -111,7 +111,7 @@ end
 
 -- daftar link raw route (ubah ke link punyamu)
 routes = {
-    {"BASE → CP8", loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/Replays.lua")},
+    {"BASE → CP8", loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/cadangan.lua")},
 }
 
 -- ============================================================
