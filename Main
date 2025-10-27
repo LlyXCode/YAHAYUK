@@ -109,16 +109,9 @@ local function loadRoute(url)
     end
 end
 
--- ============================================================
--- Daftar route otomatis (6 link)
--- ============================================================
+-- daftar link raw route (ubah ke link punyamu)
 routes = {
-    {"BASE → CP1", loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/01.lua")},
-    {"CP1 → CP2",  loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/12.lua")},
-    {"CP2 → CP3",  loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/23.lua")},
-    {"CP3 → CP4",  loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/34.lua")},
-    {"CP4 → CP5",  loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/45.lua")},
-    {"CP5 → CP6",  loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/56.lua")},
+    {"BASE → CP8", loadRoute("https://raw.githubusercontent.com/LlyXCode/YAHAYUK/refs/heads/main/cadangan.lua")},
 }
 
 -- ============================================================
