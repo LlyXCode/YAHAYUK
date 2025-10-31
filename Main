@@ -744,7 +744,7 @@ InfoTab:Button({
     Desc = "Salin link Discord ke clipboard",
     Callback = function()
         if setclipboard then
-            setclipboard("https://discord.gg/XD")
+            setclipboard("https://discord.gg/BSEDnsJ5")
             logAndNotify("Discord", "Link berhasil disalin!")
         else
             notify("Clipboard Error", "setclipboard tidak tersedia!", 2)
